@@ -1,0 +1,6 @@
+.terraform
+.terraform/
+.git
+.git/
+backend.tf
+terraform.tfstate*

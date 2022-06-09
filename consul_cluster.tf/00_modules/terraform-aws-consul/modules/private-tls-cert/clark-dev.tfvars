@@ -1,0 +1,10 @@
+ca_public_key_file_path = "./tls/ca.crt.pem"
+public_key_file_path    = "./tls/consul.crt.pem"
+private_key_file_path   = "./tls/consul.key.pem"
+owner                   = "mhussein"
+organization_name       = "Clark Co"
+common_name             = "clark.co cert"
+ca_common_name          = "clark.co cert"
+dns_names               = ["clark.consul.com"]
+ip_addresses            = ["127.0.0.1"]
+validity_period_hours   = 17532 #2 years
